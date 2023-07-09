@@ -77,3 +77,137 @@ box-shadow: -1px 18px 5px -4px rgba(245,56,56,0.5);
     font-weight: bold;
 
   }
+  .bancont{
+    
+    justify-content: center;
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    
+  }
+  .bancont img{
+    margin: 20px;
+  }
+  .bancont h4{
+    font-size: 25px;
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+  .bancont p{
+    font-size: 20px;
+    color: #4F5665;
+    margin-bottom: 0;
+  }
+  .bannerwrapper{
+    
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #FFFF;
+    -webkit-box-shadow: 10px 11px 14px 0px rgba(255,255,255,1);
+-moz-box-shadow: 10px 11px 14px 0px rgba(255,255,255,1);
+box-shadow: 10px 11px 14px 0px rgba(255,255,255,1);
+
+  }
+  .icon1{
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+    
+    
+  }
+  .icon1 img{
+    padding-right: 20px;
+  }
+.icon2{
+    flex-direction: row;
+}
+.feature{
+    padding-top: 50px;
+    color: #4F5665;
+}
+.feature h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+.feature p{
+    font-size: 16px;
+}
+.plan{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+.plan h1{
+    color: #0B132A;
+    font-size: 34px;
+    font-weight: 600;
+}
+.plan p{
+    color: #4F5665;
+    font-size: 16px;
+}
+.plancontainer{
+    cursor: pointer;
+    padding: 20px;
+    border-style: outset;
+    margin: 50px;
+    height: 700px;
+    border-color:#DDDDDD;
+    text-align: center;
+    
+    
+}
+.plancontainer :hover{
+    color: #F53838;
+}
+.plancontainer img{
+    padding-top: 50px;
+}
+.plancontainer h4{
+    padding: 20px;
+}
+.plancontainer h3{
+    padding-top: 100px;
+}
+.plancontainer button{
+    
+    border: #F53855 solid 2px;
+    border-radius: 1cqw;
+    color: #F53855;
+    width: 180px;
+    height: 40px;
+}
+.plancontainer p{
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+}
+.plancontainer p span{
+    font-weight: lighter;
+    color: #4F5665;
+}
+.butt{
+    background-color: #F53838;
+    color: #F6F6F6;
+    
+}
+.net{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+.net h1{
+    color: #0B132A;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1px;
+}
+.net p{
+    color: #4F5665;
+    font-size: 16px;
+}
+.netimg{
+    position: relative;
+}
