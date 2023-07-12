@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import { NavHashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
     const [showMenu, setShowMenu]=useState(false)
   return (
+    <section className='head'>
     <div className="header">
         <div className="">
         <img
@@ -16,8 +19,8 @@ const Navbar = () => {
     <nav className="nav">
         <ul>
             <li>Home</li>
-            <li>About</li>
-            <li>Features</li>
+            <li href='#about'>About</li>
+            <li><AnchorLink href='#features'>Features</AnchorLink></li>
             <li>Pricing</li>
             <li>Testimonials</li>
             <li>Help</li>
@@ -30,6 +33,7 @@ const Navbar = () => {
         <a className='b1 b2' href=''>Sign Up</a>
       </div>
       </div>
+      </section>
   );
 }
 

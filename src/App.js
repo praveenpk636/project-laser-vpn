@@ -5,6 +5,8 @@ import Banner from './components/Banner';
 import Features from './components/Features';
 import Plan from './components/Plan';
 import Network from './components/Network';
+import Map from './components/Map';
+import Customer from './components/Customer';
 
 
 function App() {
@@ -15,7 +17,9 @@ function App() {
    <Banner/>
    <Features/>
    <Plan/>
-   <Network/>
+   {/* <Network/> */}
+   <Map/>
+   <Customer/>
    
    </>
    

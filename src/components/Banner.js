@@ -1,10 +1,10 @@
 import { CContainer, CRow,CCol } from '@coreui/react'
 import React from 'react'
 
-const Icon =({icon,number,name})=>{
+const Plan =({icon,number,name, border})=>{
     
     return (<CCol>
-        <div className='bancont'>
+        <div className='bancont' style={!border ? {border:'none'} : {}}>
        
             <img src={icon}/>
        
@@ -18,9 +18,13 @@ const Icon =({icon,number,name})=>{
 
 }
 
+Plan.defaultProps={
+    border:true, 
+}
+
 function Banner() {
   return (
-    <section className="ban"> 
+    <section className="ban" id='home'> 
 <CContainer>
     <CRow>
         <CCol>
@@ -40,9 +44,9 @@ function Banner() {
     </CRow>
     <CRow className='d-flex justify-content-center bannerwrapper'>
         
-       <Icon icon={'/assets/icon/user.svg'} number={'90+'} name={"Users"}/>
-       <Icon icon={'/assets/icon/location.svg'} number={'50+'} name={"Locations"}/>
-       <Icon icon={'/assets/icon/Server.svg'} number={"30+"} name={'Server'}/>
+       <Plan icon={'/assets/icon/user.svg'} number={'90+'} name={"Users"}/>
+       <Plan icon={'/assets/icon/location.svg'} number={'50+'} name={"Locations"}/>
+       <Plan icon={'/assets/icon/Server.svg'} number={"30+"} name={'Server'} border={false}/>
 
 
 

@@ -16,7 +16,7 @@ const Icon =({icon,name})=>{
 
 function Features() {
   return (
-    <section>
+    <section className='features' id='features'>
         <CContainer>
             <CRow>
                 <CCol>
